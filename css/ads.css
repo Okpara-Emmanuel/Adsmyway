@@ -2,37 +2,52 @@
 body{
   font-size: 10px;
 }
-.navbar {
+.navbar .a{
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #000000;
-  color: #c0bebe;
+  background-color: #ffffff;
+  color: #636060;
   padding: 1% 0;
   font-size: 0.8em;
   border: 0;
   font-weight: bold;
   }
 
-  .bgimage {
-    width:100%;
-    height:500px;
-    background: url('https://res.cloudinary.com/dzo1seiao/image/upload/v1551344872/adshome.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
+.bgimage {
+  width:100%;
+  height:500px;
+  background: url('https://res.cloudinary.com/dzo1seiao/image/upload/v1551344872/adshome.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
   }
   .bgimage h5 {
     color:white;
     text-shadow:2px 2px #333;
   }
+  section .bgimage .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
 
+  .bgimage2{
+    width:100%;
+    height:500px;
+    background: url('https://res.cloudinary.com/chidi/image/upload/v1551801118/computer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    }
+    .bgimage2 h5 {
+      color:white;
+      text-shadow:2px 2px #333;
+    }
+    section .bgimage2 .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
 
 /*=================Get started & login button css start==============*/
 
 .btn:hover {
     background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.2);
     color: #fff;
     transform: translateY(-2px);
   }
@@ -296,6 +311,11 @@ svg {
   .carousel-caption{
     display:none;
   }
+
+  .how-section1 .row{
+    text-align: center;
+  }
+
   .animation {
     color:white;
     text-shadow:2px 2px #333;
