@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
   <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
-  <script src="ads.js"></script>
+  <script src="adsmyway.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -43,17 +43,27 @@
           <li class="nav-item">
             <a class="nav-link" href="About.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="Advertisers.html">Advertisers</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Publisher.html">Publisher</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="AdsGallary.html">Ads Gallary</a>
+
+          <li class="nav-item dropdown dmenu show-on-hover">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Publisher</a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="publisher.html">Publisher</a>
+              <a class="dropdown-item" href="pubguide.html">Publisher Guide</a>
+            </div>
+          </li>    
+
+          <li class="nav-item dropdown dmenu show-on-hover">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Ads Gallery
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="AdsGallary.html">Web Ads</a>
+              <a class="dropdown-item" href="mobileads.html">Mobile Ads</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="howitworks.html">How it works</a>
@@ -101,73 +111,47 @@
     
 
 
-  <div class="container" style="background-color:blue; background-clip: border-box; margin-top:250px; ">
-    <div class="how-section1 container">
-      <div class="row container"  style="margin-top: 0px; padding-top: 0px">
-          
-          <div class="col-md-12 ">
-              <h4 style="text-align: center; color:white;"> We Work hard to turn your innovation to profit</h4>
-          </div>
-          <div class="col-md-4">
-            <div class="card " style="width: 24rem; background-color: transparent; border: none; color: white;">
-              <div class="card-body">
-                <h5 class="card-title">Social Targeting</h5>
-                <h6 class="card-subtitle mb-2 text-muted"></h6>
-                <p class="card-text" style="text-align:justify">Reach the right audience for your content with our social targeting tools. Connect with the audience by interests, age, marital status, household type Income and gender.</p>
-              </div>
-            </div>
-          </div> 
-          <div class="col-md-4">
-            <div class="card " style="width: 24rem; background-color: transparent; border: none;color: white;">
-              <div class="card-body">
-                <h5 class="card-title">Retargeting for Increased Revenue   </h5>
-                <h6 class="card-subtitle mb-2 text-muted"></h6>
-                <p class="card-text" style="text-align:justify; ">We follow visitors who have visited your site with your ads when you advertise your site with us</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 24rem; background-color: transparent; border: none; color: white;">
-              <div class="card-body">
-                <h5 class="card-title">Brand Protection and Ad Choice and Selection</h5>
-                <h6 class="card-subtitle mb-2 text-muted"></h6>
-                <p class="card-text" style="text-align:justify">When publishing your site or content, get to choose type of Ads that may appear on your site. Exclude Ads type from within 
-                    same categories</p>
-              </div>
-              </div>
-          </div>
-      </div>
-      <div class="row " style="margin:0px">
-          <div class="col-md-5 offset-md-1">
-            <div class="card " style="width: 26rem; background-color: transparent; border: none; color: white;">
-              <div class="card-body">
-                <h5 class="card-title">Brand Protection and Ad Choice and Selection</h5>
-                <h6 class="card-subtitle mb-2 text-muted"></h6>
-                <p class="card-text" style="text-align:justify">When publishing your site or content, get to choose type of Ads that may appear on your site. Exclude Ads type from within same categories</p>
-                    </div>
-              </div>
-          </div>
-          <div class="col-md-5 offset-md-1">
-            <div class="card" style="width: 26rem; background-color: transparent; border: none; color: white;">
-              <div class="card-body">
-                <h5 class="card-title">Brand Protection and Ad Choice and Selection</h5>
-                <h6 class="card-subtitle mb-2 text-muted"></h6>
-                <p class="card-text" style="text-align:justify">When publishing your site or content, get to choose type of Ads that may appear on your site. Exclude Ads type from within same categories</p>
-              </div>
-            </div>
-          </div>
-      </div>
-     </div>                                  
+  <!--for publisher-->
+    <div class="col-md-12 ">
+        <h4 style="text-align:center; width:100%; margin-top:30px; margin-bottom:30px; color:#3931af;"><span class="bg-main">We Work hard</span> to turn your innovation to profit</h4>
     </div>
-
-    <div class="row" style="margin-top:30px; text-align: center">
-        <div class="col-md-10 offset-md-1">
-         <h4>Click on the "Get Started" button to Register.</h4>
+   <div class="container-fluid home-content1">
+      <div class="row">
+        <div class="col-md-6 content1-left">
+              <h3>Social Target<span class="blinker"></span></h3>
+              <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <p class="card-text" style="text-align:justify">Reach the right audience for your content with our social targeting tools. Connect with the audience by interests, age, marital status, household type Income and gender.</p>
+        </div>
+        <div class="col-md-6 content1-right">
+          <h3>Retargeting for Increased Revenue<span class="blinker"></span></h3>
+          <h6 class="card-subtitle mb-2 text-muted"></h6>
+          <p class="card-text" style="text-align:justify; ">We follow visitors who have visited your site with your ads when you advertise your site with us</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid home-content1">
+      <div class="row">
+        <div class="col-md-6 content1-right">
+          <h3>Retargeting for Increased Revenue<span class="blinker"></span></h3>
+          <h6 class="card-subtitle mb-2 text-muted"></h6>
+          <p class="card-text" style="text-align:justify; ">We follow visitors who have visited your site with your ads when you advertise your site with us</p>
+        </div>
+        <div class="col-md-6 content1-left">
+            <h3>Brand Protection, Ad Choice and Selection<span class="blinker"></span></h3>
+          <h6 class="card-subtitle mb-2 text-muted"></h6>
+          <p class="card-text" style="text-align:justify">When publishing your site or content, get to choose type of Ads that may appear on your site. Exclude Ads type from within same categories</p>
+        </div>
+      </div>
+    </div>
+    <div class="row container" style="margin-top:30px; text-align: center">
+        <div class="col-md-12 offset-md-1">
+         <h4 style="color:#3931af;">Click on the "Get Started" button to Register.</h4>
          <p class="text-muted">First Step is to Register either as Publisher or Advertiser</p>
+        </div>
     </div>
-    </div>
-    <div class="row" >
-      <div class="col-md-10 offset-md-1">
+<!--for publisher ends-->
+
+      <div class="container text-justify">
         <p class="text-muted">  AdsMyWay does not believe in working with Websites, Mobile Sites or Mobile Apps which promote - Adult Content, Alcohol, Adware/Malware, Hate Speech, Illegal Downloads (Pirated content), Illegal Drugs, Offensive Language and Violence.</p>
 
         <p class="text-muted">In addition, if your website/Applications are found dealing with Malware, Unusual rotations, Add-On Tags, 4th Party Files, Botnet proxies/blocks, Private IP Ranges and infecting the end user computers in any way, ADSMYWAY will consider it a violation.</p>
@@ -178,9 +162,6 @@
 
         <p class="text-muted">We further prepare and share the list of violators with our other clients.</p>
         </div>
-       </div>
-    </div>
-
 
   <footer class="webintern-footer">
       <div class="webintern-footer-inner">

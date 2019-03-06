@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
   <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
-  <script src="ads.js"></script>
+  <script src="adsmyway.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -37,23 +37,34 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home
-              <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="About.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link active" href="services.html">Services</a>
+            <span class="sr-only">(current)</span>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Advertisers.html">Advertisers</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Publisher.html">Publisher</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="AdsGallary.html">Ads Gallary</a>
+          <li class="nav-item dropdown dmenu show-on-hover">
+              <a class="nav-link dropdown-toggle" href="publisher.html#" id="navbardrop" data-toggle="dropdown">
+                  Publisher
+              </a>
+              <div class="dropdown-menu sm-menu">
+                <a class="dropdown-item" href="pubguide.html">Publisher Guide</a>
+              </div>
+            </li> 
+          <li class="nav-item dropdown dmenu show-on-hover">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Ads Gallery
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="AdsGallary.html">Web Ads</a>
+              <a class="dropdown-item" href="mobileads.html">Mobile Ads</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="howitworks.html">How it works</a>
@@ -82,7 +93,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <svg viewBox="0 0 960 300">
                         <symbol id="s-text">
-                        <text class="animation" text-anchor="middle" x="50%" y="80%">Our Services</text>
+                        <text class="animation" text-anchor="middle" x="50%" y="80%" style="font-size:180px">Our Services</text>
                         </symbol>
                       <g class = "g-ants">
                         <use xlink:href="#s-text" class="text-copy"></use>
@@ -99,6 +110,45 @@
          </section>
 
 
+<!--for publisher-->
+        <div class="col-md-12 ">
+            <h4 style="text-align:center; width:100%; margin-top:30px; margin-bottom:30px; color:#3931af;"><span class="bg-main">We Work hard</span> to turn your innovation to profit</h4>
+        </div>
+         <div class="container-fluid home-content1">
+            <div class="row">
+              <div class="col-md-6 content1-left">
+                    <h4>Social Target<span class="blinker"></span></h4>
+                    <h6 class="card-subtitle mb-2 text-muted"></h6>
+                    <p class="card-text" style="text-align:justify">Reach the right audience for your content with our social targeting tools. Connect with the audience by interests, age, marital status, household type Income and gender.</p>
+              </div>
+              <div class="col-md-6 content1-right">
+                <h3>Retargeting for Increased Revenue<span class="blinker"></span></h3>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text" style="text-align:justify; ">We follow visitors who have visited your site with your ads when you advertise your site with us</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid home-content1">
+            <div class="row">
+              <div class="col-md-6 content1-right">
+                <h3>Retargeting for Increased Revenue<span class="blinker"></span></h3>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text" style="text-align:justify; ">We follow visitors who have visited your site with your ads when you advertise your site with us</p>
+              </div>
+              <div class="col-md-6 content1-left">
+                  <h3>Brand Protection, Ad Choice and Selection<span class="blinker"></span></h3>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text" style="text-align:justify">When publishing your site or content, get to choose type of Ads that may appear on your site. Exclude Ads type from within same categories</p>
+              </div>
+            </div>
+          </div>
+          <div class="row container" style="margin-top:30px; text-align: center">
+              <div class="col-md-10 offset-md-1">
+               <h4>Click on the "Get Started" button to Register.</h4>
+               <p class="text-muted">First Step is to Register either as Publisher or Advertiser</p>
+              </div>
+          </div>
+<!--for publisher ends-->
 
 <div class="how-section1">
                     <div class="row">

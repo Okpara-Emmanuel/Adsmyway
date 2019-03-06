@@ -14,5 +14,30 @@ header.masthead {
 
     header.masthead .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
 
+    a.btn.btn-default.btn-scroll {
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 100%;
+       }
+       .floating-arrow {
+        -webkit-animation: floating-arrow 1.6s infinite ease-in-out 0s;
+        -o-animation: floating-arrow 1.6s infinite ease-in-out 0s;
+        animation: floating-arrow 1.6s infinite ease-in-out 0s;
+      }
+      @keyframes floating-arrow {
+        from {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+        65% {
+            -webkit-transform: translateY(11px);
+            transform: translateY(11px);
+        }
+        to {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+      }
+
   
   
