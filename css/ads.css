@@ -70,6 +70,21 @@ body{
     }
     section .bgimage2 .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
 
+    .bgimage3{
+      width:100%;
+      height:500px;
+      background: url('https://res.cloudinary.com/chidi/image/upload/v1552051488/advertiser.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size:cover;
+      background-attachment: fixed;
+      }
+      .bgimage3 h5 {
+        color:white;
+        text-shadow:2px 2px #333;
+      }
+    section .bgimage3 .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
+
 /*=================Get started & login button css start==============*/
 
 .btn:hover {
@@ -128,6 +143,13 @@ span.bg-main {
 }
 .how-img img{
   width: 40%;
+}
+h3.my-heading {
+  font-family: 'Kaushan Script', cursive;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  margin:0;
 }
 
 /*=================footer css start==============*/

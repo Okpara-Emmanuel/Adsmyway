@@ -1,0 +1,65 @@
+/*header for adsgallery, publisher*/
+header.masthead {
+    position: relative;
+    height: 100vh;
+    background-color: #343a40;
+    background: url('https://res.cloudinary.com/chidi/image/upload/v1552050754/mobile.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    }
+
+    header.masthead .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
+
+    .inner-section h3 {
+      text-transform: uppercase;
+    }
+    
+    .inner-section h3:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        max-width: 10%;
+        top: 37px;
+        left: 0;
+    }
+    .testimonials{
+      padding-top:5rem;
+      padding-bottom:5rem;
+     }
+
+      .inner-section{
+        position:relative;   
+      }
+      span.bg-main {
+        color: #ffa500;
+      }
+
+      a.btn.btn-default.btn-scroll {
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 100%;
+       }
+       .floating-arrow {
+        -webkit-animation: floating-arrow 1.6s infinite ease-in-out 0s;
+        -o-animation: floating-arrow 1.6s infinite ease-in-out 0s;
+        animation: floating-arrow 1.6s infinite ease-in-out 0s;
+      }
+      @keyframes floating-arrow {
+        from {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+        65% {
+            -webkit-transform: translateY(11px);
+            transform: translateY(11px);
+        }
+        to {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+      }
+  
